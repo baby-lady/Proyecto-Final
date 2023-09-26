@@ -1,0 +1,41 @@
+@media (max-width: 512px) {
+    .sectionPrincipal{
+        h1{
+            font-size: 5rem;
+        }
+        h2{
+            font-size: 3.5rem;
+            margin: auto;
+        }
+    }
+    .sectionMision {
+        h3{
+            font-size: 2rem;
+            margin: auto;
+        }
+        p{
+            font-size: 1rem;
+            margin: auto;
+        }
+    }
+    .sectionTerapias{
+        h3{
+            font-size: 2rem;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+    .nuestraMision{
+        section{
+            h1{
+                font-size: 5rem;
+            }
+        }
+    }
+    .terapias{
+        h1{
+            font-size: 5rem;
+        }
+    }
+}

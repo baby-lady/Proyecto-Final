@@ -1,0 +1,66 @@
+.bodyIndex{
+    background-color: #0D0A0C;
+    background-image: url(../assets/waves.jpg);
+    background-position: max;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sectionPrincipal {
+    h1{
+        margin: .9375rem;
+        text-align: center;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 37.5rem;
+        font-size: 9.125rem;
+        color: $cr;
+    }
+    h2{
+        margin: 15px 50px;
+        text-align: center;
+        font-family: 'Major Mono Display', monospace;
+        font-weight: 1.875rem;
+        font-size: 50px;
+    }
+    h3{
+        margin: 15px 50px;
+        text-align: center;
+        font-family: hot-tenshokk, sans-serif;
+        font-weight: 1.875rem;
+        font-size: 2.5rem;
+    }
+}
+
+.scale-in-center{
+    animation:scale-in-center 1s 
+    cubic-bezier(.25,.46,.45,.94) both
+}
+
+.sectionMision{
+    height: 100%;
+    h3{
+        margin: .9375rem;
+        text-align: center;
+        font-size: 6.125rem;
+    }
+    p{
+        margin: 1.5625rem ;
+        padding: 1.25rem ;
+        text-align: center;
+        font-size: 1.75rem;
+    }
+}
+
+.sectionTerapias{
+    font-size: 1.5625rem;
+    text-align: center;
+    h3{
+        margin: .9375rem;
+        font-size: 4.5rem;
+    }
+    p{
+        margin: 1.5625rem ;
+        padding: 1.25rem ;
+    }
+}
+

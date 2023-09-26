@@ -1,0 +1,25 @@
+.cardsIndex{
+    text-decoration: none;
+@include flex(column, nowrap, center, none, none);
+}
+
+.img1{
+    background-image: url(../assets/terapiasflorales.jpg);
+    @include size ($widthimg, $heightimg);
+}
+.img2{
+    background-image: url(../assets/numerologia.jpg);
+    @include size ($widthimg, $heightimg);
+}
+.img3{
+    background-image: url(../assets/radiestesia.jpg);
+    @include size ($widthimg, $heightimg);
+}
+.img4{
+    background-image: url(../assets/reiki.jpg);
+    @include size ($widthimg, $heightimg);
+}
+.img5{
+    background-image: url(../assets/astrologia2.jpg);
+    @include size ($widthimg, $heightimg);
+}

@@ -1,0 +1,21 @@
+.boton {
+    @include flex (row, nowrap, center, none, none);
+    border-radius: 1.25rem;
+    a{
+        color: #A6818F;
+    div:hover{
+        transform: scale(4);
+    }
+    }
+}
+
+.boton2 {
+    @include flex (row, nowrap, start, center, none);
+    border-radius: 1.25rem;
+    a{
+        color: #A6818F;
+    div:hover{
+        transform: scale(4);
+    }
+    }
+}

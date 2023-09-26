@@ -1,0 +1,9 @@
+@media (max-width: 1024px){
+    main{
+        section{
+            h1{
+                .focus-in-expand{animation:focus-in-expand 1.5s cubic-bezier(.25,.46,.45,.94) both};
+            }
+        }
+    }
+}

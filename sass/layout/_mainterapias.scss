@@ -1,0 +1,44 @@
+.bodyTerapias{
+    background-color: #0D0A0C;
+    background-image: url(../assets/waves.jpg);
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.terapias{
+    margin: 1.875rem;
+    text-align: center;
+    font-size: 1.875rem;
+    color: #0D0A0C;
+    h1{
+        text-align: center;
+        font-size: $titlessize;
+        color: #0D0A0C;
+    }
+    p{
+        text-align: center;
+        color: #0D0A0C;
+        em{
+            color: #0D0A0C;
+        }
+    }
+}
+
+.card{
+    background-color: #A6818F;
+}
+
+.card-text{
+    color:#0D0A0C;
+}
+
+.card-title{
+    font-family: 'Thasadith', sans-serif;
+    font-size: 1.5625rem;
+    color:#0D0A0C;
+}
+
+.text-decoration-none{
+    color: #0D0A0C;
+}

@@ -1,0 +1,24 @@
+@import "./base/reset";
+
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/keyframes";
+
+@import "./layout/header";
+
+@import "./layout/mainindex";
+@import "./components/cardsindex";
+
+@import "./layout/mainterapias";
+@import "./components/cardsterapias";
+
+@import "./layout/mainmision";
+
+@import "./layout/footer";
+
+/*mediaqueries*/
+@import "./layout/media/media1024";
+@import "./layout/media/media768";
+@import "./layout/media/media512";
+@import "./layout/media/media425";
+@import "./layout/media/media320";

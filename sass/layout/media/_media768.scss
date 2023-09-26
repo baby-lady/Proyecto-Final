@@ -1,0 +1,48 @@
+@media (max-width: 768px){
+    .sectionPrincipal {
+        h1{
+            font-size: 7rem;
+            text-align: center;
+        }
+        h2{
+            font-size: 4rem;
+            text-align: center;
+            margin: auto;
+        }
+    }
+    .sectionMision{
+        width: 100%;
+        h3{
+            font-size: 3rem;
+            margin: auto;
+        }
+        p{
+            font-size: 1rem;
+            margin: auto;
+        
+        }
+    }
+    .sectionTerapias{
+        h3{
+            font-size: 2rem;
+        }
+    }
+    .bodyTerapias{
+        background-image: none;
+    }
+    .terapias{
+        h1{
+            font-size: 7rem;
+            color: $cr;
+        }
+        p{
+            color: $cr;
+            em{
+                color: $cr;
+            }
+        }
+    }
+    .cardsTerapias{
+        @include flex(row, wrap, center, none, .625rem);
+    }
+}

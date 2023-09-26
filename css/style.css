@@ -1,0 +1,439 @@
+/**
+colores:
+body text color: #949AA6
+#626773
+navbar text and icon color: #A6818F
+navbar y footer bg: #46354E
+#261E24
+background: #0D0A0C
+
+
+adobe fonts: 
+hot-tenshokk, sans-serif
+timemachine-wa, sans-serif
+
+
+font-family: 'Alumni Sans Pinstripe', sans-serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Grandiflora One', serif;
+font-family: 'Major Mono Display', monospace;
+font-family: 'Thasadith', sans-serif;
+**/
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=El+Messiri:wght@400;700&family=Grandiflora+One&family=Major+Mono+Display&family=Thasadith&display=swap");
+* {
+  margin: 0.125rem;
+  padding: 0.125rem;
+  box-sizing: border-box;
+  font-family: "Thasadith", sans-serif;
+  color: #949AA6;
+}
+
+body {
+  background-color: #0D0A0C;
+}
+
+/*colores*/
+/*radius*/
+/*sizes*/
+/*mixin size*/
+/*FLEX*/
+/*GRIDS*/
+/*IMG CARDS*/
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+header {
+  background-color: #46354E;
+  margin: 0.3125rem;
+  height: auto;
+  width: auto;
+  position: sticky;
+  border-radius: 1.25rem;
+  top: 0.5rem;
+  z-index: 100;
+}
+header .navbar {
+  width: auto;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+header .navbar a {
+  color: #A6818F;
+}
+
+.bodyIndex {
+  background-color: #0D0A0C;
+  background-image: url(../assets/waves.jpg);
+  background-position: max;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.sectionPrincipal h1 {
+  margin: 0.9375rem;
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+  font-weight: 37.5rem;
+  font-size: 9.125rem;
+  color: #A6818F;
+}
+.sectionPrincipal h2 {
+  margin: 15px 50px;
+  text-align: center;
+  font-family: "Major Mono Display", monospace;
+  font-weight: 1.875rem;
+  font-size: 50px;
+}
+.sectionPrincipal h3 {
+  margin: 15px 50px;
+  text-align: center;
+  font-family: hot-tenshokk, sans-serif;
+  font-weight: 1.875rem;
+  font-size: 2.5rem;
+}
+
+.scale-in-center {
+  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.sectionMision {
+  height: 100%;
+}
+.sectionMision h3 {
+  margin: 0.9375rem;
+  text-align: center;
+  font-size: 6.125rem;
+}
+.sectionMision p {
+  margin: 1.5625rem;
+  padding: 1.25rem;
+  text-align: center;
+  font-size: 1.75rem;
+}
+
+.sectionTerapias {
+  font-size: 1.5625rem;
+  text-align: center;
+}
+.sectionTerapias h3 {
+  margin: 0.9375rem;
+  font-size: 4.5rem;
+}
+.sectionTerapias p {
+  margin: 1.5625rem;
+  padding: 1.25rem;
+}
+
+.cardsIndex {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: none;
+  gap: none;
+}
+
+.img1 {
+  background-image: url(../assets/terapiasflorales.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.img2 {
+  background-image: url(../assets/numerologia.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.img3 {
+  background-image: url(../assets/radiestesia.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.img4 {
+  background-image: url(../assets/reiki.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.img5 {
+  background-image: url(../assets/astrologia2.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.bodyTerapias {
+  background-color: #0D0A0C;
+  background-image: url(../assets/waves.jpg);
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.terapias {
+  margin: 1.875rem;
+  text-align: center;
+  font-size: 1.875rem;
+  color: #0D0A0C;
+}
+.terapias h1 {
+  text-align: center;
+  font-size: 9.375rem;
+  color: #0D0A0C;
+}
+.terapias p {
+  text-align: center;
+  color: #0D0A0C;
+}
+.terapias p em {
+  color: #0D0A0C;
+}
+
+.card {
+  background-color: #A6818F;
+}
+
+.card-text {
+  color: #0D0A0C;
+}
+
+.card-title {
+  font-family: "Thasadith", sans-serif;
+  font-size: 1.5625rem;
+  color: #0D0A0C;
+}
+
+.text-decoration-none {
+  color: #0D0A0C;
+}
+
+.cards-terapia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.bodyMision {
+  background-color: #0D0A0C;
+  background-image: url(../assets/waterrockscropped.jpg);
+  filter: blur(2);
+  background-position: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nuestraMision section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: start;
+  gap: none;
+  height: 100%;
+  text-align: center;
+}
+.nuestraMision section h1 strong {
+  font-size: 9.375rem;
+  color: white;
+}
+.nuestraMision section article {
+  margin: 30px;
+  font-size: 1.875rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: none;
+  margin: 0.3125rem;
+  height: 3.75rem;
+  width: auto;
+  position: end;
+  background-color: #46354E;
+  border-radius: 0.9375rem;
+  font-size: 0.75rem;
+}
+
+/*mediaqueries*/
+@media (max-width: 1024px) {
+  main section h1 .focus-in-expand {
+    animation: focus-in-expand 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+}
+@media (max-width: 768px) {
+  .sectionPrincipal h1 {
+    font-size: 7rem;
+    text-align: center;
+  }
+  .sectionPrincipal h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin: auto;
+  }
+  .sectionMision {
+    width: 100%;
+  }
+  .sectionMision h3 {
+    font-size: 3rem;
+    margin: auto;
+  }
+  .sectionMision p {
+    font-size: 1rem;
+    margin: auto;
+  }
+  .sectionTerapias h3 {
+    font-size: 2rem;
+  }
+  .bodyTerapias {
+    background-image: none;
+  }
+  .terapias h1 {
+    font-size: 7rem;
+    color: #A6818F;
+  }
+  .terapias p {
+    color: #A6818F;
+  }
+  .terapias p em {
+    color: #A6818F;
+  }
+  .cardsTerapias {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: none;
+    gap: 0.625rem;
+  }
+}
+@media (max-width: 512px) {
+  .sectionPrincipal h1 {
+    font-size: 5rem;
+  }
+  .sectionPrincipal h2 {
+    font-size: 3.5rem;
+    margin: auto;
+  }
+  .sectionMision h3 {
+    font-size: 2rem;
+    margin: auto;
+  }
+  .sectionMision p {
+    font-size: 1rem;
+    margin: auto;
+  }
+  .sectionTerapias h3 {
+    font-size: 2rem;
+  }
+  .sectionTerapias p {
+    font-size: 1rem;
+  }
+  .nuestraMision section h1 {
+    font-size: 5rem;
+  }
+  .terapias h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 425px) {
+  .sectionPrincipal h1 {
+    font-size: 4.25rem;
+  }
+  .sectionPrincipal h2 {
+    font-size: 2.5rem;
+    margin: auto;
+  }
+  .sectionTerapias h3 {
+    font-size: 2rem;
+  }
+  .sectionTerapias p {
+    font-size: 1rem;
+  }
+  .nuestraMision section h3 {
+    font-size: 4.25rem;
+  }
+  .terapias {
+    margin: 0;
+  }
+  .terapias h1 {
+    font-size: 3rem;
+  }
+  .mq h1 {
+    font-size: 3.25rem;
+  }
+  .unete h1 {
+    font-size: 3.25rem;
+  }
+  .contacto h1 {
+    font-size: 3.25rem;
+  }
+  .contacto h1 p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  .sectionPrincipal h1 {
+    font-size: 3.625rem;
+  }
+  .sectionPrincipal h2 {
+    display: none;
+  }
+  .sectionTerapias h3 {
+    font-size: 2rem;
+  }
+  .sectionTerapias p {
+    font-size: 1rem;
+  }
+  .nuestraMision section h1 {
+    font-size: 3.625rem;
+  }
+  .nuestraMision section article {
+    font-size: 1rem;
+  }
+  .nuestraMision article {
+    font-size: 1rem;
+  }
+  .terapias h1 {
+    font-size: 3.625rem;
+  }
+  .cardsTerapias section {
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

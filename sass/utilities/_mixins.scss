@@ -1,0 +1,27 @@
+/*FLEX*/
+@mixin flex ($direction, $wrap, $justify, $align, $gap){
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+    }
+
+/*GRIDS*/
+@mixin grids ($col, $row){
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+    }
+
+
+/*IMG CARDS*/
+@mixin size ($width, $height){
+    background-repeat: no-repeat;
+    width: $width;
+    height: $height;
+    border-radius: $bradius;
+    align-self: center;
+    box-shadow: .125rem .125rem .125rem #261E24;
+}

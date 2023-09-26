@@ -1,0 +1,10 @@
+footer{
+    @include flex(row, wrap, space-between, center, none);
+    margin: .3125rem;
+    height: 3.75rem;
+    width: auto;
+    position: end;
+    background-color: $bcv;
+    border-radius: $bradiusnavfooter;
+    font-size: .75rem;
+}

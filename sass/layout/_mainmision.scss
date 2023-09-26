@@ -1,0 +1,26 @@
+.bodyMision{
+    background-color: #0D0A0C;
+    background-image: url(../assets/waterrockscropped.jpg);
+    filter: blur(2);
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nuestraMision{
+    section{
+        @include flex(column, nowrap, center, start, none);
+        height: 100%;
+        text-align: center;
+            h1{
+                strong{
+                    font-size: $titlessize;
+                    color: white;
+                }
+            }
+        article{
+            margin: 30px;
+            font-size: 1.875rem;
+        }
+    }
+}
