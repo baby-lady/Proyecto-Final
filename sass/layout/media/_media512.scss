@@ -1,29 +1,44 @@
 @media (max-width: 512px) {
     .sectionPrincipal{
+        margin: auto;
+        margin-bottom: 2.5rem;
         h1{
-            font-size: 5rem;
+            font-size: 6.25rem;
         }
         h2{
-            font-size: 3.5rem;
+            font-size: 2.8125rem;
             margin: auto;
         }
     }
     .sectionMision {
-        h3{
-            font-size: 2rem;
-            margin: auto;
-        }
-        p{
-            font-size: 1rem;
-            margin: auto;
+        article{
+            h3{
+                strong{
+                    color: #0D0A0C;
+                    font-size: 2rem;
+                    margin: auto;
+                }
+            }
+            p{
+                color: white;
+                font-size: 1.5625rem;
+                margin: auto;
+            }
         }
     }
     .sectionTerapias{
         h3{
-            font-size: 2rem;
+            strong{
+                color: #0D0A0C;
+                font-size: 2rem;
+            }
         }
         p{
-            font-size: 1rem;
+            font-size: 1.5625rem;
+            color: white;
+            em{
+                color: white;
+            }
         }
     }
     .nuestraMision{

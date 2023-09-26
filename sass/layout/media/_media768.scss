@@ -1,8 +1,11 @@
 @media (max-width: 768px){
     .sectionPrincipal {
+        margin: auto;
         h1{
-            font-size: 7rem;
+            font-size: 10rem;
             text-align: center;
+            margin-bottom: 3.125rem;
+            margin-top: 3.125rem;
         }
         h2{
             font-size: 4rem;
@@ -10,21 +13,37 @@
             margin: auto;
         }
     }
-    .sectionMision{
-        width: 100%;
-        h3{
-            font-size: 3rem;
-            margin: auto;
-        }
-        p{
-            font-size: 1rem;
-            margin: auto;
-        
+    .sectionMision {
+        margin-top: 4.375rem;
+        article{
+            h3{
+                strong{
+                    color: white;
+                    font-size: 3rem;
+                    margin: auto;
+                }
+            }
+            p{
+                color: white;
+                font-size: 2rem;
+                margin: auto;
+            }
         }
     }
     .sectionTerapias{
+        margin-top: 4.375rem;
         h3{
+            strong{
+                color: white;
+                font-size: 3rem;
+            }
+        }
+        p{
             font-size: 2rem;
+            color: white;
+            em{
+                color: white;
+            }
         }
     }
     .bodyTerapias{

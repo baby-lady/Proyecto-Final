@@ -71,32 +71,30 @@ header .navbar a {
 .bodyIndex {
   background-color: #0D0A0C;
   background-image: url(../assets/waves.jpg);
-  background-position: max;
+  background-position: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
+.sectionPrincipal {
+  margin: 0 80px 200px 80px;
+}
 .sectionPrincipal h1 {
   margin: 0.9375rem;
   text-align: center;
   font-family: "Major Mono Display", monospace;
   font-weight: 37.5rem;
-  font-size: 9.125rem;
+  font-size: 10rem;
   color: #A6818F;
 }
 .sectionPrincipal h2 {
   margin: 15px 50px;
   text-align: center;
   font-family: "Major Mono Display", monospace;
-  font-weight: 1.875rem;
+  font-weight: 25rem;
   font-size: 50px;
-}
-.sectionPrincipal h3 {
-  margin: 15px 50px;
-  text-align: center;
-  font-family: hot-tenshokk, sans-serif;
-  font-weight: 1.875rem;
-  font-size: 2.5rem;
+  color: #0D0A0C;
 }
 
 .scale-in-center {
@@ -105,30 +103,34 @@ header .navbar a {
 
 .sectionMision {
   height: 100%;
+  font-family: "Major Mono Display", monospace;
 }
-.sectionMision h3 {
-  margin: 0.9375rem;
+.sectionMision article h3 {
   text-align: center;
-  font-size: 6.125rem;
 }
-.sectionMision p {
+.sectionMision article h3 strong {
+  font-size: 4.375rem;
+  font-family: "Major Mono Display", monospace;
+}
+.sectionMision article p {
   margin: 1.5625rem;
   padding: 1.25rem;
   text-align: center;
   font-size: 1.75rem;
 }
 
-.sectionTerapias {
-  font-size: 1.5625rem;
+.sectionTerapias h3 {
   text-align: center;
 }
-.sectionTerapias h3 {
-  margin: 0.9375rem;
-  font-size: 4.5rem;
+.sectionTerapias h3 strong {
+  font-size: 4.375rem;
+  font-family: "Major Mono Display", monospace;
 }
 .sectionTerapias p {
   margin: 1.5625rem;
   padding: 1.25rem;
+  text-align: center;
+  font-size: 1.75rem;
 }
 
 .cardsIndex {
@@ -142,13 +144,7 @@ header .navbar a {
 }
 
 .img1 {
-  background-image: url(../assets/terapiasflorales.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+  background-image: url(../assets/icons/reiki.png);
 }
 
 .img2 {
@@ -206,6 +202,7 @@ header .navbar a {
   color: #0D0A0C;
 }
 .terapias h1 {
+  font-family: "Major Mono Display", monospace;
   text-align: center;
   font-size: 9.375rem;
   color: #0D0A0C;
@@ -228,7 +225,7 @@ header .navbar a {
 
 .card-title {
   font-family: "Thasadith", sans-serif;
-  font-size: 1.5625rem;
+  font-size: 1.25rem;
   color: #0D0A0C;
 }
 
@@ -296,9 +293,14 @@ footer {
   }
 }
 @media (max-width: 768px) {
+  .sectionPrincipal {
+    margin: auto;
+  }
   .sectionPrincipal h1 {
-    font-size: 7rem;
+    font-size: 10rem;
     text-align: center;
+    margin-bottom: 3.125rem;
+    margin-top: 3.125rem;
   }
   .sectionPrincipal h2 {
     font-size: 4rem;
@@ -306,18 +308,31 @@ footer {
     margin: auto;
   }
   .sectionMision {
-    width: 100%;
+    margin-top: 4.375rem;
   }
-  .sectionMision h3 {
+  .sectionMision article h3 strong {
+    color: white;
     font-size: 3rem;
     margin: auto;
   }
-  .sectionMision p {
-    font-size: 1rem;
+  .sectionMision article p {
+    color: white;
+    font-size: 2rem;
     margin: auto;
   }
-  .sectionTerapias h3 {
+  .sectionTerapias {
+    margin-top: 4.375rem;
+  }
+  .sectionTerapias h3 strong {
+    color: white;
+    font-size: 3rem;
+  }
+  .sectionTerapias p {
     font-size: 2rem;
+    color: white;
+  }
+  .sectionTerapias p em {
+    color: white;
   }
   .bodyTerapias {
     background-image: none;
@@ -342,26 +357,37 @@ footer {
   }
 }
 @media (max-width: 512px) {
+  .sectionPrincipal {
+    margin: auto;
+    margin-bottom: 2.5rem;
+  }
   .sectionPrincipal h1 {
-    font-size: 5rem;
+    font-size: 6.25rem;
   }
   .sectionPrincipal h2 {
-    font-size: 3.5rem;
+    font-size: 2.8125rem;
     margin: auto;
   }
-  .sectionMision h3 {
+  .sectionMision article h3 strong {
+    color: #0D0A0C;
     font-size: 2rem;
     margin: auto;
   }
-  .sectionMision p {
-    font-size: 1rem;
+  .sectionMision article p {
+    color: white;
+    font-size: 1.5625rem;
     margin: auto;
   }
-  .sectionTerapias h3 {
+  .sectionTerapias h3 strong {
+    color: #0D0A0C;
     font-size: 2rem;
   }
   .sectionTerapias p {
-    font-size: 1rem;
+    font-size: 1.5625rem;
+    color: white;
+  }
+  .sectionTerapias p em {
+    color: white;
   }
   .nuestraMision section h1 {
     font-size: 5rem;
@@ -371,20 +397,35 @@ footer {
   }
 }
 @media (max-width: 425px) {
+  .sectionPrincipal {
+    margin: 0;
+  }
   .sectionPrincipal h1 {
     font-size: 4.25rem;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
   }
   .sectionPrincipal h2 {
     font-size: 2.5rem;
     margin: auto;
   }
-  .sectionTerapias h3 {
-    font-size: 2rem;
+  .sectionMision {
+    margin-top: 2.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .sectionMision article h3 strong {
+    font-size: 2.2rem;
+  }
+  .sectionMision article p {
+    font-size: 1.5rem;
+  }
+  .sectionTerapias h3 strong {
+    font-size: 2.2rem;
   }
   .sectionTerapias p {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
-  .nuestraMision section h3 {
+  .nuestraMision section h3 strong {
     font-size: 4.25rem;
   }
   .terapias {
@@ -392,6 +433,9 @@ footer {
   }
   .terapias h1 {
     font-size: 3rem;
+  }
+  .terapias p {
+    font-size: 1.5rem;
   }
   .mq h1 {
     font-size: 3.25rem;
@@ -402,18 +446,26 @@ footer {
   .contacto h1 {
     font-size: 3.25rem;
   }
-  .contacto h1 p {
+  .contacto p {
     font-size: 1rem;
   }
 }
 @media (max-width: 320px) {
   .sectionPrincipal h1 {
-    font-size: 3.625rem;
+    font-size: 4.0625rem;
+    margin-bottom: 0;
   }
   .sectionPrincipal h2 {
-    display: none;
+    margin-top: 0;
+    font-size: 1.5rem;
   }
-  .sectionTerapias h3 {
+  .sectionMision article h3 strong {
+    font-size: 2rem;
+  }
+  .sectionMision article p {
+    font-size: 1rem;
+  }
+  .sectionTerapias h3 strong {
     font-size: 2rem;
   }
   .sectionTerapias p {
@@ -429,10 +481,7 @@ footer {
     font-size: 1rem;
   }
   .terapias h1 {
-    font-size: 3.625rem;
-  }
-  .cardsTerapias section {
-    margin: auto;
+    font-size: 3rem;
   }
 }
 

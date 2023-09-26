@@ -1,35 +1,32 @@
 .bodyIndex{
     background-color: #0D0A0C;
     background-image: url(../assets/waves.jpg);
-    background-position: max;
+    background-position: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .sectionPrincipal {
+    margin: 0 80px 200px 80px;
     h1{
         margin: .9375rem;
         text-align: center;
         font-family: 'Major Mono Display', monospace;
         font-weight: 37.5rem;
-        font-size: 9.125rem;
+        font-size: 10rem;
         color: $cr;
     }
     h2{
         margin: 15px 50px;
         text-align: center;
         font-family: 'Major Mono Display', monospace;
-        font-weight: 1.875rem;
+        font-weight: 25rem;
         font-size: 50px;
-    }
-    h3{
-        margin: 15px 50px;
-        text-align: center;
-        font-family: hot-tenshokk, sans-serif;
-        font-weight: 1.875rem;
-        font-size: 2.5rem;
+        color: #0D0A0C;
     }
 }
+
 
 .scale-in-center{
     animation:scale-in-center 1s 
@@ -38,29 +35,37 @@
 
 .sectionMision{
     height: 100%;
-    h3{
-        margin: .9375rem;
-        text-align: center;
-        font-size: 6.125rem;
-    }
-    p{
-        margin: 1.5625rem ;
-        padding: 1.25rem ;
-        text-align: center;
-        font-size: 1.75rem;
+    font-family: 'Major Mono Display', monospace;
+    article{
+        h3{
+            text-align: center;
+            strong{
+                font-size: 4.375rem ;
+                font-family: 'Major Mono Display', monospace;
+            }
+        }
+        p{
+            margin: 1.5625rem ;
+            padding: 1.25rem ;
+            text-align: center;
+            font-size: 1.75rem;
+        }
     }
 }
-
 .sectionTerapias{
-    font-size: 1.5625rem;
-    text-align: center;
     h3{
-        margin: .9375rem;
-        font-size: 4.5rem;
+        text-align: center;
+        strong{
+            font-size: 4.375rem ;
+            font-family: 'Major Mono Display', monospace;
+        }
     }
-    p{
-        margin: 1.5625rem ;
-        padding: 1.25rem ;
+        p{
+            margin: 1.5625rem ;
+            padding: 1.25rem ;
+            text-align: center;
+            font-size: 1.75rem;
+        }
     }
-}
+
 

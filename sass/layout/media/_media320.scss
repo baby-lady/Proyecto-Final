@@ -1,16 +1,32 @@
 @media (max-width: 320px){
     .sectionPrincipal {
         h1{
-        font-size: 3.625rem;
+        font-size: 4.0625rem;
+        margin-bottom: 0;
         }
         h2{
-            display: none;
+            margin-top: 0;
+            font-size: 1.5rem;
+        }
+    }
+    .sectionMision{
+        article{
+            h3{
+                strong{
+                    font-size: 2rem;
+                }
+            }
+            p{
+                font-size: 1rem;
+            }
         }
     }
     .sectionTerapias{
         h3{
+            strong{
         font-size: 2rem;
         }
+    }
         p{
         font-size: 1rem;
         }
@@ -30,12 +46,7 @@
     }
     .terapias{
         h1{
-        font-size: 3.625rem;
-        }
-    }
-    .cardsTerapias{
-        section{
-        margin: auto;
+        font-size: 3rem;
         }
     }
 }
