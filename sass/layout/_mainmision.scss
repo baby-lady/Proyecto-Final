@@ -1,7 +1,6 @@
 .bodyMision{
     background-color: #0D0A0C;
-    background-image: url(../assets/waterrockscropped.jpg);
-    filter: blur(2);
+    background-image: url(../assets/waves.jpg);
     background-position: fill;
     background-repeat: no-repeat;
     background-position: center;
@@ -14,13 +13,16 @@
         text-align: center;
             h1{
                 strong{
+                    font-family: 'Major Mono Display', monospace;
                     font-size: $titlessize;
-                    color: white;
+                    color: $cr;
                 }
             }
         article{
             margin: 30px;
             font-size: 1.875rem;
+            font-weight: 25rem;
+            color: #0D0A0C;
         }
     }
 }

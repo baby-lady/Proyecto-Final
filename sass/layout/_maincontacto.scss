@@ -1,0 +1,24 @@
+.bodyContacto{
+    background-color: #0D0A0C;
+    background-image: url(../assets/blackwaterstream.jpg);
+    background-position: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.contacto{
+    height: 100%;
+    text-align: center;
+    h1{
+        strong{
+        font-size: $titlessize;
+        font-family: 'Major Mono Display', monospace;
+        color: $cr;
+        }
+    }
+    article{
+        p{
+            margin: 30px;
+            font-size: 1.875rem;
+        }
+    }
+}

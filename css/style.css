@@ -205,7 +205,7 @@ header .navbar a {
   font-family: "Major Mono Display", monospace;
   text-align: center;
   font-size: 9.375rem;
-  color: #0D0A0C;
+  color: #A6818F;
 }
 .terapias p {
   text-align: center;
@@ -244,8 +244,7 @@ header .navbar a {
 
 .bodyMision {
   background-color: #0D0A0C;
-  background-image: url(../assets/waterrockscropped.jpg);
-  filter: blur(2);
+  background-image: url(../assets/waves.jpg);
   background-position: fill;
   background-repeat: no-repeat;
   background-position: center;
@@ -262,12 +261,56 @@ header .navbar a {
   text-align: center;
 }
 .nuestraMision section h1 strong {
+  font-family: "Major Mono Display", monospace;
   font-size: 9.375rem;
-  color: white;
+  color: #A6818F;
 }
 .nuestraMision section article {
   margin: 30px;
   font-size: 1.875rem;
+  font-weight: 25rem;
+  color: #0D0A0C;
+}
+
+.bodyContacto {
+  background-color: #0D0A0C;
+  background-image: url(../assets/blackwaterstream.jpg);
+  background-position: fill;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.contacto {
+  height: 100%;
+  text-align: center;
+}
+.contacto h1 strong {
+  font-size: 9.375rem;
+  font-family: "Major Mono Display", monospace;
+  color: #A6818F;
+}
+.contacto article p {
+  margin: 30px;
+  font-size: 1.875rem;
+}
+
+.bodyUnete {
+  background-color: #0D0A0C;
+  background-image: url(../assets/waves.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.unete {
+  height: 100%;
+  text-align: center;
+}
+.unete h1 {
+  font-family: "Major Mono Display", monospace;
+  color: #A6818F;
+  font-size: 9.375rem;
 }
 
 footer {
@@ -393,7 +436,7 @@ footer {
     font-size: 5rem;
   }
   .terapias h1 {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 @media (max-width: 425px) {
@@ -437,9 +480,6 @@ footer {
   .terapias p {
     font-size: 1.5rem;
   }
-  .mq h1 {
-    font-size: 3.25rem;
-  }
   .unete h1 {
     font-size: 3.25rem;
   }
@@ -482,6 +522,9 @@ footer {
   }
   .terapias h1 {
     font-size: 3rem;
+  }
+  .pCard {
+    display: none;
   }
 }
 
