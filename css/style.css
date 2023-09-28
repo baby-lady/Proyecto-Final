@@ -358,10 +358,6 @@ footer {
   }
   .terapias p {
     font-size: 2rem;
-    color: #A6818F;
-  }
-  .terapias p em {
-    color: #A6818F;
   }
   .cardsTerapias {
     display: flex;
