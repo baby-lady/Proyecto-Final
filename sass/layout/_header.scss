@@ -10,8 +10,11 @@ header{
     .navbar{
         width: auto;
         text-decoration: none;
+        font-family: 'Major Mono Display', monospace;
         font-size: 1.25rem;
+        font-weight: 600;
         a {
+            font-family: 'Major Mono Display', monospace;
             color: #A6818F;
         }
     }

@@ -8,18 +8,10 @@ navbar y footer bg: #46354E
 background: #0D0A0C
 
 
-adobe fonts: 
-hot-tenshokk, sans-serif
-timemachine-wa, sans-serif
-
-
-font-family: 'Alumni Sans Pinstripe', sans-serif;
-font-family: 'El Messiri', sans-serif;
-font-family: 'Grandiflora One', serif;
 font-family: 'Major Mono Display', monospace;
-font-family: 'Thasadith', sans-serif;
+font-family: 'Thasadith', sans-serif; (regular 400 and bold 700)
 **/
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=El+Messiri:wght@400;700&family=Grandiflora+One&family=Major+Mono+Display&family=Thasadith&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Thasadith:wght@400;700&display=swap");
 * {
   margin: 0.125rem;
   padding: 0.125rem;
@@ -30,12 +22,19 @@ font-family: 'Thasadith', sans-serif;
 
 body {
   background-color: #0D0A0C;
+  background-image: url(../assets/waves.jpg);
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /*colores*/
 /*radius*/
 /*sizes*/
 /*mixin size*/
+/*bootstrap*/
+/*text bg*/
 /*FLEX*/
 /*GRIDS*/
 /*IMG CARDS*/
@@ -62,23 +61,20 @@ header {
 header .navbar {
   width: auto;
   text-decoration: none;
+  font-family: "Major Mono Display", monospace;
   font-size: 1.25rem;
+  font-weight: 600;
 }
 header .navbar a {
+  font-family: "Major Mono Display", monospace;
   color: #A6818F;
-}
-
-.bodyIndex {
-  background-color: #0D0A0C;
-  background-image: url(../assets/waves.jpg);
-  background-position: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .sectionPrincipal {
   margin: 0 80px 200px 80px;
+}
+.sectionPrincipal .scale-in-center {
+  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 .sectionPrincipal h1 {
   margin: 0.9375rem;
@@ -93,44 +89,60 @@ header .navbar a {
   text-align: center;
   font-family: "Major Mono Display", monospace;
   font-weight: 25rem;
-  font-size: 50px;
+  font-size: 3.125rem;
   color: #0D0A0C;
-}
-
-.scale-in-center {
-  animation: scale-in-center 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .sectionMision {
   height: 100%;
-  font-family: "Major Mono Display", monospace;
+  margin-bottom: 3.125rem;
 }
 .sectionMision article h3 {
-  text-align: center;
+  text-align: start;
 }
 .sectionMision article h3 strong {
-  font-size: 4.375rem;
+  margin: 1.5625rem;
+  padding: 1.25rem;
   font-family: "Major Mono Display", monospace;
+  font-size: 4.375rem;
+  color: #A6818F;
 }
 .sectionMision article p {
-  margin: 1.5625rem;
-  padding: 1.25rem;
-  text-align: center;
+  background-color: rgba(234, 234, 234, 0.2392156863);
+  border-radius: 0.9375rem;
+  margin: 0 1.5625rem;
+  padding: 0 1.25rem;
+  text-align: start;
   font-size: 1.75rem;
+  font-weight: 600;
+  color: #0D0A0C;
 }
 
+.sectionTerapias {
+  margin-bottom: 3.125rem;
+}
 .sectionTerapias h3 {
-  text-align: center;
+  text-align: end;
 }
 .sectionTerapias h3 strong {
-  font-size: 4.375rem;
-  font-family: "Major Mono Display", monospace;
-}
-.sectionTerapias p {
   margin: 1.5625rem;
   padding: 1.25rem;
-  text-align: center;
+  font-family: "Major Mono Display", monospace;
+  font-size: 4.375rem;
+  color: #A6818F;
+}
+.sectionTerapias p {
+  background-color: rgba(234, 234, 234, 0.2392156863);
+  border-radius: 0.9375rem;
+  margin: 0 1.5625rem;
+  padding: 0 1.25rem;
+  text-align: end;
   font-size: 1.75rem;
+  font-weight: 600;
+  color: #0D0A0C;
+}
+.sectionTerapias p em {
+  color: #0D0A0C;
 }
 
 .cardsIndex {
@@ -187,21 +199,13 @@ header .navbar a {
   box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
 }
 
-.bodyTerapias {
-  background-color: #0D0A0C;
-  background-image: url(../assets/waves.jpg);
-  background-position: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 .terapias {
   margin: 1.875rem;
   text-align: center;
   font-size: 1.875rem;
   color: #0D0A0C;
 }
-.terapias h1 {
+.terapias h1 strong {
   font-family: "Major Mono Display", monospace;
   text-align: center;
   font-size: 9.375rem;
@@ -239,24 +243,10 @@ header .navbar a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-}
-
-.bodyMision {
-  background-color: #0D0A0C;
-  background-image: url(../assets/waves.jpg);
-  background-position: fill;
-  background-repeat: no-repeat;
-  background-position: center;
+  gap: 20px;
 }
 
 .nuestraMision section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: start;
-  gap: none;
   height: 100%;
   text-align: center;
 }
@@ -266,18 +256,12 @@ header .navbar a {
   color: #A6818F;
 }
 .nuestraMision section article {
+  background-color: rgba(234, 234, 234, 0.2392156863);
+  border-radius: 0.9375rem;
   margin: 30px;
   font-size: 1.875rem;
-  font-weight: 25rem;
+  font-weight: 600;
   color: #0D0A0C;
-}
-
-.bodyContacto {
-  background-color: #0D0A0C;
-  background-image: url(../assets/blackwaterstream.jpg);
-  background-position: fill;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .contacto {
@@ -292,15 +276,6 @@ header .navbar a {
 .contacto article p {
   margin: 30px;
   font-size: 1.875rem;
-}
-
-.bodyUnete {
-  background-color: #0D0A0C;
-  background-image: url(../assets/waves.jpg);
-  background-position: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
 .unete {
@@ -331,8 +306,8 @@ footer {
 
 /*mediaqueries*/
 @media (max-width: 1024px) {
-  main section h1 .focus-in-expand {
-    animation: focus-in-expand 1.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  .nuestraMision section h1 strong {
+    font-size: 100px;
   }
 }
 @media (max-width: 768px) {
@@ -342,49 +317,47 @@ footer {
   .sectionPrincipal h1 {
     font-size: 10rem;
     text-align: center;
-    margin-bottom: 3.125rem;
+    /*margin-bottom: 3.125rem;*/
     margin-top: 3.125rem;
   }
   .sectionPrincipal h2 {
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     margin: auto;
   }
   .sectionMision {
-    margin-top: 4.375rem;
+    margin-top: 3.125rem;
   }
   .sectionMision article h3 strong {
-    color: white;
-    font-size: 3rem;
     margin: auto;
+    font-size: 3rem;
   }
   .sectionMision article p {
-    color: white;
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: auto;
   }
-  .sectionTerapias {
-    margin-top: 4.375rem;
+  .sectionTerapias h3 {
+    margin: auto;
   }
   .sectionTerapias h3 strong {
-    color: white;
     font-size: 3rem;
   }
   .sectionTerapias p {
-    font-size: 2rem;
-    color: white;
+    font-size: 1.75rem;
+    margin: auto;
   }
-  .sectionTerapias p em {
-    color: white;
+  .nuestraMision section h1 strong {
+    font-size: 3.75rem;
   }
-  .bodyTerapias {
-    background-image: none;
+  .nuestraMision section article {
+    font-size: 1.5rem;
   }
-  .terapias h1 {
-    font-size: 7rem;
+  .terapias h1 strong {
+    font-size: 4rem;
     color: #A6818F;
   }
   .terapias p {
+    font-size: 2rem;
     color: #A6818F;
   }
   .terapias p em {
@@ -392,11 +365,11 @@ footer {
   }
   .cardsTerapias {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: none;
-    gap: 0.625rem;
+    gap: none;
   }
 }
 @media (max-width: 512px) {
@@ -408,34 +381,40 @@ footer {
     font-size: 6.25rem;
   }
   .sectionPrincipal h2 {
-    font-size: 2.8125rem;
+    font-size: 1.3rem;
     margin: auto;
+  }
+  .sectionMision {
+    margin-bottom: 50px;
+  }
+  .sectionMision article h3 {
+    text-align: center;
+    margin-bottom: 20px;
   }
   .sectionMision article h3 strong {
+    font-size: 2.5rem;
     color: #0D0A0C;
-    font-size: 2rem;
-    margin: auto;
   }
   .sectionMision article p {
-    color: white;
-    font-size: 1.5625rem;
-    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .sectionTerapias h3 {
+    text-align: center;
+    margin-bottom: 20px;
   }
   .sectionTerapias h3 strong {
     color: #0D0A0C;
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .sectionTerapias p {
-    font-size: 1.5625rem;
-    color: white;
+    text-align: center;
+    font-size: 1.5rem;
   }
-  .sectionTerapias p em {
-    color: white;
+  .nuestraMision section h1 strong {
+    font-size: 4.8rem;
   }
-  .nuestraMision section h1 {
-    font-size: 5rem;
-  }
-  .terapias h1 {
+  .terapias h1 strong {
     font-size: 3rem;
   }
 }
@@ -444,20 +423,16 @@ footer {
     margin: 0;
   }
   .sectionPrincipal h1 {
-    font-size: 4.25rem;
+    font-size: 5rem;
     margin-top: 3.125rem;
     margin-bottom: 3.125rem;
   }
   .sectionPrincipal h2 {
-    font-size: 2.5rem;
-    margin: auto;
-  }
-  .sectionMision {
-    margin-top: 2.5rem;
-    margin-bottom: 1.25rem;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
   }
   .sectionMision article h3 strong {
-    font-size: 2.2rem;
+    font-size: 2rem;
   }
   .sectionMision article p {
     font-size: 1.5rem;
@@ -468,17 +443,23 @@ footer {
   .sectionTerapias p {
     font-size: 1.5rem;
   }
-  .nuestraMision section h3 strong {
-    font-size: 4.25rem;
+  .nuestraMision section h1 strong {
+    font-size: 3.75rem;
+  }
+  .nuestraMision section article {
+    font-size: 1.5rem;
   }
   .terapias {
-    margin: 0;
+    margin: auto;
   }
-  .terapias h1 {
+  .terapias h1 strong {
     font-size: 3rem;
   }
   .terapias p {
     font-size: 1.5rem;
+  }
+  .pCard {
+    display: none;
   }
   .unete h1 {
     font-size: 3.25rem;
@@ -490,23 +471,22 @@ footer {
     font-size: 1rem;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .sectionPrincipal h1 {
     font-size: 4.0625rem;
     margin-bottom: 0;
   }
   .sectionPrincipal h2 {
-    margin-top: 0;
-    font-size: 1.5rem;
+    display: none;
   }
   .sectionMision article h3 strong {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sectionMision article p {
     font-size: 1rem;
   }
   .sectionTerapias h3 strong {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .sectionTerapias p {
     font-size: 1rem;
@@ -520,10 +500,43 @@ footer {
   .nuestraMision article {
     font-size: 1rem;
   }
-  .terapias h1 {
+  .pCard {
+    display: none;
+  }
+}
+@media (max-width: 320px) {
+  .sectionPrincipal h1 {
+    font-size: 4.0625rem;
+    margin-bottom: 0;
+  }
+  .sectionPrincipal h2 {
+    display: none;
+  }
+  .sectionMision article h3 strong {
+    font-size: 1.3rem;
+  }
+  .sectionMision article p {
+    font-size: 1rem;
+  }
+  .sectionTerapias h3 strong {
+    font-size: 1.3rem;
+  }
+  .sectionTerapias p {
+    font-size: 1rem;
+  }
+  .nuestraMision section h1 {
+    font-size: 3.625rem;
+  }
+  .nuestraMision section article {
+    font-size: 1rem;
+  }
+  .nuestraMision article {
+    font-size: 1rem;
+  }
+  .terapias h1 strong {
     font-size: 3rem;
   }
-  .pCard {
+  .terapias .pCard {
     display: none;
   }
 }

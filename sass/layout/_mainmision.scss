@@ -1,14 +1,5 @@
-.bodyMision{
-    background-color: #0D0A0C;
-    background-image: url(../assets/waves.jpg);
-    background-position: fill;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .nuestraMision{
     section{
-        @include flex(column, nowrap, center, start, none);
         height: 100%;
         text-align: center;
             h1{
@@ -19,9 +10,11 @@
                 }
             }
         article{
+            background-color: $bgcolortransparent;
+            border-radius: $bradiusnavfooter;
             margin: 30px;
             font-size: 1.875rem;
-            font-weight: 25rem;
+            font-weight: 600;
             color: #0D0A0C;
         }
     }

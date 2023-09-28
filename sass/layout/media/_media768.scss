@@ -4,57 +4,63 @@
         h1{
             font-size: 10rem;
             text-align: center;
-            margin-bottom: 3.125rem;
+            /*margin-bottom: 3.125rem;*/
             margin-top: 3.125rem;
         }
         h2{
-            font-size: 4rem;
+            font-size: 2rem;
             text-align: center;
             margin: auto;
         }
     }
     .sectionMision {
-        margin-top: 4.375rem;
+        margin-top: 3.125rem;
         article{
             h3{
                 strong{
-                    color: white;
-                    font-size: 3rem;
                     margin: auto;
+                    font-size: 3rem;
                 }
             }
             p{
-                color: white;
-                font-size: 2rem;
+                font-size: 1.75rem;
                 margin: auto;
             }
         }
     }
     .sectionTerapias{
-        margin-top: 4.375rem;
         h3{
+            margin: auto;
             strong{
-                color: white;
                 font-size: 3rem;
             }
         }
         p{
-            font-size: 2rem;
-            color: white;
-            em{
-                color: white;
+            font-size: 1.75rem;
+            margin: auto;
+        }
+    }
+    .nuestraMision{
+        section{
+            h1{
+                strong{
+                    font-size: 3.75rem;
+                }
+            }
+            article{
+                font-size: 1.5rem;
             }
         }
     }
-    .bodyTerapias{
-        background-image: none;
-    }
     .terapias{
         h1{
-            font-size: 7rem;
-            color: $cr;
+            strong{
+                font-size: 4rem;
+                color: $cr;
+            }
         }
         p{
+            font-size: 2rem;
             color: $cr;
             em{
                 color: $cr;
@@ -62,6 +68,6 @@
         }
     }
     .cardsTerapias{
-        @include flex(row, wrap, center, none, .625rem);
+        @include flex(column, nowrap, center, none, none);
     }
 }

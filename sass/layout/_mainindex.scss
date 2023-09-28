@@ -1,13 +1,8 @@
-.bodyIndex{
-    background-color: #0D0A0C;
-    background-image: url(../assets/waves.jpg);
-    background-position: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.sectionPrincipal {
+.sectionPrincipal{
+    .scale-in-center{
+        animation:scale-in-center 1s 
+        cubic-bezier(.25,.46,.45,.94) both
+    }
     margin: 0 80px 200px 80px;
     h1{
         margin: .9375rem;
@@ -22,49 +17,61 @@
         text-align: center;
         font-family: 'Major Mono Display', monospace;
         font-weight: 25rem;
-        font-size: 50px;
+        font-size: 3.125rem;
         color: #0D0A0C;
     }
 }
 
-
-.scale-in-center{
-    animation:scale-in-center 1s 
-    cubic-bezier(.25,.46,.45,.94) both
-}
-
 .sectionMision{
     height: 100%;
-    font-family: 'Major Mono Display', monospace;
+    margin-bottom: 3.125rem;
     article{
         h3{
-            text-align: center;
+            text-align: start;
             strong{
-                font-size: 4.375rem ;
+                margin: 1.5625rem;
+                padding: 1.25rem;
                 font-family: 'Major Mono Display', monospace;
+                font-size: 4.375rem;
+                color: $cr;
             }
         }
         p{
-            margin: 1.5625rem ;
-            padding: 1.25rem ;
-            text-align: center;
+            background-color: $bgcolortransparent;
+            border-radius: $bradiusnavfooter;
+            margin: 0 1.5625rem;
+            padding: 0 1.25rem;
+            text-align: start;
             font-size: 1.75rem;
+            font-weight: 600;
+            color: #0D0A0C;
         }
     }
 }
 .sectionTerapias{
+    margin-bottom: 3.125rem;
     h3{
-        text-align: center;
+        text-align: end;
         strong{
-            font-size: 4.375rem ;
+            margin: 1.5625rem;
+            padding: 1.25rem;
             font-family: 'Major Mono Display', monospace;
+            font-size: 4.375rem ;
+            color: $cr;
         }
     }
         p{
-            margin: 1.5625rem ;
-            padding: 1.25rem ;
-            text-align: center;
+            background-color: $bgcolortransparent;
+            border-radius: $bradiusnavfooter;
+            margin: 0 1.5625rem;
+            padding: 0 1.25rem;
+            text-align: end;
             font-size: 1.75rem;
+            font-weight: 600;
+            color: #0D0A0C;
+            em{
+                color: #0D0A0C;
+            }
         }
     }
 

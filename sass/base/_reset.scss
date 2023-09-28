@@ -8,19 +8,10 @@ navbar y footer bg: #46354E
 background: #0D0A0C
 
 
-adobe fonts: 
-hot-tenshokk, sans-serif
-timemachine-wa, sans-serif
-
-
-font-family: 'Alumni Sans Pinstripe', sans-serif;
-font-family: 'El Messiri', sans-serif;
-font-family: 'Grandiflora One', serif;
 font-family: 'Major Mono Display', monospace;
-font-family: 'Thasadith', sans-serif;
+font-family: 'Thasadith', sans-serif; (regular 400 and bold 700)
 **/
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=El+Messiri:wght@400;700&family=Grandiflora+One&family=Major+Mono+Display&family=Thasadith&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Thasadith:wght@400;700&display=swap');
 *{
     margin: .125rem;
     padding: .125rem;
@@ -31,4 +22,9 @@ font-family: 'Thasadith', sans-serif;
 
 body{
     background-color: #0D0A0C;
+    background-image: url(../assets/waves.jpg);
+    background-position: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }

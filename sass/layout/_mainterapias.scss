@@ -1,21 +1,15 @@
-.bodyTerapias{
-    background-color: #0D0A0C;
-    background-image: url(../assets/waves.jpg);
-    background-position: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 .terapias{
     margin: 1.875rem;
     text-align: center;
     font-size: 1.875rem;
     color: #0D0A0C;
     h1{
-        font-family: 'Major Mono Display', monospace;
-        text-align: center;
-        font-size: $titlessize;
-        color: $cr;
+        strong{
+            font-family: 'Major Mono Display', monospace;
+            text-align: center;
+            font-size: $titlessize;
+            color: $cr;
+        }
     }
     p{
         text-align: center;
