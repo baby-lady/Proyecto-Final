@@ -48,44 +48,45 @@
     <main class="unete">
         <h1>registrate</h1>
         <h2>Forma parte del mundo maravilloso que es Casa Tryna!</h2>
-            <div>Con tu cuenta vas a poder reservar, cancelar o modificar turnos.</div>
-        <h3>Astroregalo!</h3>
+        <div>Con tu cuenta vas a poder reservar, cancelar o modificar turnos.</div>
+            <h3>Astroregalo!</h3>
             <div>
                 <p>Queres saber tu carta natal? dejanos la hora, el dia y el lugar donde naciste. Con esos datos podemos hacer nuestros calculos y enviartela por mail.</p>
             </div>
-            <form class="row g-3">
-                <div class="col-md-6">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputPassword4" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="inputPassword4">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress" class="form-label">Dirección</label>
-                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                </div>
-                <div class="col-12">
-                    <label for="inputAddress2" class="form-label">Address 2</label>
-                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-                </div>
-                <div class="col-md-6">
-                    <label for="inputCity" class="form-label">City</label>
-                    <input type="text" class="form-control" id="inputCity">
-                </div>
-                <div class="col-12">
-                    <div class="form-check">
-                        <input class="form-check-input" type="checkbox" id="gridCheck">
-                        <label class="form-check-label" for="gridCheck">
-                            Deseo recibir novedades y promociones
-                        </label>
-                    </div>
-                </div>
-                <div class="col-12">
-                    <button type="submit" class="btn btn-dark">Ingresar</button>
-                </div>
-            </form>
+        <section>
+            <article>
+                <form class="formulario">
+                    <fieldset>
+                        <legend>Ingresa tus datos</legend>
+                            <label for="nombre">Nombre
+                                <input type="text" id="nombre" required>
+                            </label>
+                            <label for="apellido">Apellido
+                                <input type="text" id="apellido" required>
+                            </label>
+                            <label for="mail">Email
+                                <input type="mail" id="mail" required>
+                            </label>
+                            <br>
+                            <label for="fecha de nacimiento">Fecha de nacimiento
+                                <input type="date" id="fecha-de-nacimiento">
+                            </label>
+                            <label for="hora">Hora de nacimiento
+                                <input type="time" id="hora">
+                            </label>
+                            <label for="lugar">Lugar de nacimiento
+                                <input type="country" id="lugar">
+                            </label>
+                            <br>
+                            <label for="novedades">Quiero recibir novedades y promociones
+                                <input type="radio" name="novedades" id="novedades">
+                            </label>
+                            <br>
+                            <input class="btn" type="button" value="enviar">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
     </main>
     <footer class="d-flex container-fluid">
         <div>

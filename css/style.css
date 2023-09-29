@@ -144,60 +144,6 @@ header .navbar a {
   color: #0D0A0C;
 }
 
-.cardsIndex {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: none;
-  gap: none;
-}
-
-.img1 {
-  background-image: url(../assets/icons/reiki.png);
-}
-
-.img2 {
-  background-image: url(../assets/numerologia.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
-}
-
-.img3 {
-  background-image: url(../assets/radiestesia.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
-}
-
-.img4 {
-  background-image: url(../assets/reiki.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
-}
-
-.img5 {
-  background-image: url(../assets/astrologia2.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
-}
-
 .terapias {
   margin: 1.875rem;
   text-align: center;
@@ -234,16 +180,6 @@ header .navbar a {
 
 .text-decoration-none {
   color: #0D0A0C;
-}
-
-.cards-terapia {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: start;
-  gap: 20px;
-  border: 0.0625rem;
 }
 
 .nuestraMision section {
@@ -306,6 +242,100 @@ footer {
   background-color: #46354E;
   border-radius: 0.9375rem;
   font-size: 0.75rem;
+}
+
+/*components*/
+.boton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: none;
+  margin: 1.5625rem;
+  padding: 1.25rem;
+}
+
+.btn {
+  background-color: #A6818F;
+  border-radius: 1.25rem;
+  color: #0D0A0C;
+  font-family: "Major Mono Display", monospace;
+}
+.btn a {
+  text-decoration: none;
+  color: #0D0A0C;
+  font-family: "Major Mono Display", monospace;
+}
+
+.btn:hover {
+  transform: scale(2);
+  transition: 0.5s;
+  color: #A6818F;
+}
+
+.cardsIndex {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: none;
+  gap: none;
+}
+
+.img1 {
+  background-image: url(../assets/icons/reiki.png);
+}
+
+.img2 {
+  background-image: url(../assets/numerologia.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.img3 {
+  background-image: url(../assets/radiestesia.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.img4 {
+  background-image: url(../assets/reiki.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.img5 {
+  background-image: url(../assets/astrologia2.jpg);
+  background-repeat: no-repeat;
+  width: 7.0625rem;
+  height: 7.0625rem;
+  border-radius: 1.5625rem;
+  align-self: center;
+  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
+}
+
+.cards-terapia {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+  border: 0.0625rem;
 }
 
 /*mediaqueries*/

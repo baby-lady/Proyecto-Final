@@ -7,10 +7,8 @@
 @import "./layout/header";
 
 @import "./layout/mainindex";
-@import "./components/cardsindex";
 
 @import "./layout/mainterapias";
-@import "./components/cardsterapias";
 
 @import "./layout/mainmision";
 
@@ -19,6 +17,11 @@
 @import "./layout/mainunete";
 
 @import "./layout/footer";
+
+/*components*/
+@import "./components/buttons";
+@import "./components/cardsindex";
+@import "./components/cardsterapias";
 
 /*mediaqueries*/
 @import "./layout/media/media1024";

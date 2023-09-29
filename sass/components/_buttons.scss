@@ -1,21 +1,21 @@
-.boton {
-    @include flex (row, nowrap, center, none, none);
-    border-radius: 1.25rem;
-    a{
-        color: #A6818F;
-    div:hover{
-        transform: scale(4);
-    }
-    }
+.boton{
+    @include flex (row, nowrap, center, center, none);
+    margin: 1.5625rem;
+    padding: 1.25rem;
 }
-
-.boton2 {
-    @include flex (row, nowrap, start, center, none);
+.btn{
+    background-color: $cr;
     border-radius: 1.25rem;
+    color: #0D0A0C;
+    font-family: 'Major Mono Display', monospace;
     a{
-        color: #A6818F;
-    div:hover{
-        transform: scale(4);
+        text-decoration: none;
+        color: #0D0A0C;
+        font-family: 'Major Mono Display', monospace;
     }
     }
+.btn:hover{
+    transform: scale(2); 
+    transition: 0.5s;
+    color: #A6818F;
 }
