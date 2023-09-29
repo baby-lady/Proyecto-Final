@@ -1,6 +1,3 @@
-# Proyecto-Final
-Proyecto Final - Curso de Desarrollo Web de Coder House
-
 # Casa Tryna
 
 Casa Tryna es el sitio web responsive de un espacio holístico de Terapias Alternativas. En el encontrarás información sobre el nacimiento de Casa Tryna y su Fundadora; también las diferentes terapias que ofrecen y como contactarte con los diferentes terapeutas. Tiene un apartado para registrarse y de esa manera recibir un newsletter mensual con las diferentes actividades planificadas. Con ese mismo usuario podrás hacer reserva de turnos, modificarlos o cancelarlos.  
