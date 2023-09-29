@@ -31,12 +31,8 @@ body {
 /*colores*/
 /*radius*/
 /*sizes*/
-/*mixin size*/
 /*bootstrap*/
-/*text bg*/
 /*FLEX*/
-/*GRIDS*/
-/*IMG CARDS*/
 @keyframes scale-in-center {
   0% {
     transform: scale(0);
@@ -182,6 +178,7 @@ header .navbar a {
 
 .card-text {
   color: #0D0A0C;
+  font-weight: 600;
 }
 
 .card-title {
@@ -329,67 +326,13 @@ footer {
 .btn a {
   text-decoration: none;
   color: #0D0A0C;
+  font-weight: 600;
   font-family: "Major Mono Display", monospace;
 }
 
 .btn:hover {
-  transform: scale(2);
+  transform: scale(1.2);
   transition: 0.5s;
-  color: #A6818F;
-}
-
-.cardsIndex {
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: none;
-  gap: none;
-}
-
-.img1 {
-  background-image: url(../assets/icons/reiki.png);
-}
-
-.img2 {
-  background-image: url(../assets/numerologia.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
-}
-
-.img3 {
-  background-image: url(../assets/radiestesia.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
-}
-
-.img4 {
-  background-image: url(../assets/reiki.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
-}
-
-.img5 {
-  background-image: url(../assets/astrologia2.jpg);
-  background-repeat: no-repeat;
-  width: 7.0625rem;
-  height: 7.0625rem;
-  border-radius: 1.5625rem;
-  align-self: center;
-  box-shadow: 0.125rem 0.125rem 0.125rem #261E24;
 }
 
 .cards-terapia {
@@ -409,6 +352,11 @@ footer {
   }
   .unete h1 {
     font-size: 7rem;
+  }
+}
+@media (max-width: 988px) {
+  .terapias h1 strong {
+    font-size: 5rem;
   }
 }
 @media (max-width: 768px) {
@@ -454,7 +402,7 @@ footer {
     font-size: 1.5rem;
   }
   .terapias h1 strong {
-    font-size: 4rem;
+    font-size: 4.5rem;
     color: #A6818F;
   }
   .terapias p {
