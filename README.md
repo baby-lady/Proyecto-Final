@@ -6,11 +6,15 @@ Casa Tryna es el sitio web responsive de un espacio holístico de Terapias Alter
 
 El sitio cuenta con 5 paginas, cada una dedicada a un sector diferente:
 
- Inicio - Donde encontraras un pequeño resumen del sitio en general.
- Mision - Aquí se explica el propósito del espacio holístico.
- Terapias - En esta página podrás informarte sobre las distintas terapias que ofrecen, con la posibilidad de reservar turnos.
- Nosotros - La pagina se reservó para la historia de como comenzó todo este proceso para su fundadora.
- Comunidad - Desde acá podés crear tu usuario.
+- Inicio - Donde encontraras un pequeño resumen del sitio en general.
+ 
+- Mision - Aquí se explica el propósito del espacio holístico.
+ 
+- Terapias - En esta página podrás informarte sobre las distintas terapias que ofrecen, con la posibilidad de reservar turnos.
+ 
+- Nosotros - La pagina se reservó para la historia de como comenzó todo este proceso para su fundadora.
+ 
+- Comunidad - Desde acá podés crear tu usuario.
 
 ## Repositorio
 
