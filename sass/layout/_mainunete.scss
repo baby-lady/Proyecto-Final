@@ -5,6 +5,56 @@
     h1{
         font-family:'Major Mono Display', monospace;
         color: $cr;
-        font-size: 9.375rem;
+        font-size: 9rem;
     }
+    .registrate{
+        margin: 30px;
+        background-color: #0d0a0c93;
+        border-radius: $bradiusnavfooter;
+        h2{
+            margin-top: 50px;
+            font-size: 3rem;
+            font-weight: 600;
+        }
+        div{
+            font-size: 2rem;
+            font-weight: 600;
+        }
+        .astroregalo{
+            background-color: #0d0a0c93;
+            border-radius: $bradiusnavfooter;
+            margin: 100px;
+            .tracking-in-expand {
+                animation: tracking-in-expand 1s tracking-in-expand 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) 1.2s both;
+            }
+            h3{
+                font-size: 3rem;
+                color: $cr;
+                font-weight: 600;
+                font-family: 'Major Mono Display', monospace;
+            }
+            div{
+                p{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .formulario{
+        font-size: 2rem;
+        margin-bottom: 1.875rem;
+        legend{
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 40px;
+            label{
+                input{
+                    border-radius: $bradiusnavfooter;
+                }
+            }
+        }
+    }
+}
+.tracking-in-expand {
+	animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }

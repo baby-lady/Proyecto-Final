@@ -8,14 +8,18 @@
             color: $cr;
         }
     }
-    article{
+    .sobretynat{
+        margin: 30px;
+        background-color: #0d0a0c93;
+        border-radius: $bradiusnavfooter;
         p{
-            background-color: $bgcolortransparent;
-            border-radius: $bradiusnavfooter;
-            color: #0D0A0C;
+            padding: 50px;
             font-weight: 600;
-            margin: 30px;
             font-size: 1.875rem;
+            font-style: italic;
         }
+    }
+    figcaption{
+        font-size: 1.6rem;
     }
 }

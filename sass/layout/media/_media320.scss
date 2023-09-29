@@ -1,9 +1,9 @@
 @media (max-width: 320px){
     .sectionPrincipal {
         h1{
-        font-size: 4.0625rem;
-        margin-bottom: 0;
-        }
+            font-size: 4.0625rem;
+            margin-bottom: 0;
+            }
         h2{
             display: none;
         }
@@ -13,6 +13,7 @@
             h3{
                 strong{
                     font-size: 1.3rem;
+                    color: $cr
                 }
             }
             p{
@@ -23,11 +24,12 @@
     .sectionTerapias{
         h3{
             strong{
-        font-size: 1.3rem;
+                color: $cr;
+                font-size: 1.3rem;
+            }
         }
-    }
         p{
-        font-size: 1rem;
+            font-size: 1rem;
         }
     }
     .nuestraMision{
@@ -45,8 +47,8 @@
     }
     .terapias{
         h1{
-        strong{
-            font-size: 3rem;
+            strong{
+                font-size: 3rem;
             }
         }
     .pCard{
@@ -64,6 +66,16 @@
                 font-size: 1rem;
             }
         }
+        .sobretynat{
+            margin: 0;
+            p{
+                font-size: 1.5rem;
+                padding: 2%;
+            }
+        }
+    }
+    figcaption{
+        font-size: 1.5rem;
     }
     .unete{
         h1{

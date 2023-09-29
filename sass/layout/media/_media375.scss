@@ -57,10 +57,32 @@
                 font-size: 1rem;
             }
         }
+        .sobretynat{
+            margin: 0;
+            p{
+                padding: 1px;
+                font-size: 1.3rem;
+            }
+        }
+        figcaption{
+            font-size: 1.3rem;
+        }
     }
     .unete{
         h1{
             font-size: 2.5rem;
+        }
+        .registrate{
+            margin: 10px;
+            h2{
+                margin-top: 10px;
+            }
+            .astroregalo{
+                margin: 20px;
+                h3{
+                    font-size: 2rem;
+                }
+            }
         }
     }
 }

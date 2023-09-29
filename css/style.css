@@ -47,6 +47,18 @@ body {
     opacity: 1;
   }
 }
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 header {
   background-color: #46354E;
   margin: 0.3125rem;
@@ -107,14 +119,14 @@ header .navbar a {
   color: #A6818F;
 }
 .sectionMision article p {
-  background-color: rgba(234, 234, 234, 0.2392156863);
+  background-color: rgba(13, 10, 12, 0.5764705882);
   border-radius: 0.9375rem;
   margin: 0 1.5625rem;
   padding: 0 1.25rem;
   text-align: start;
   font-size: 1.75rem;
   font-weight: 600;
-  color: #0D0A0C;
+  color: #A6818F;
 }
 
 .sectionTerapias {
@@ -131,17 +143,17 @@ header .navbar a {
   color: #A6818F;
 }
 .sectionTerapias p {
-  background-color: rgba(234, 234, 234, 0.2392156863);
+  background-color: rgba(13, 10, 12, 0.5764705882);
   border-radius: 0.9375rem;
   margin: 0 1.5625rem;
   padding: 0 1.25rem;
   text-align: end;
   font-size: 1.75rem;
   font-weight: 600;
-  color: #0D0A0C;
+  color: #A6818F;
 }
 .sectionTerapias p em {
-  color: #0D0A0C;
+  color: #A6818F;
 }
 
 .terapias {
@@ -192,12 +204,11 @@ header .navbar a {
   color: #A6818F;
 }
 .nuestraMision section article {
-  background-color: rgba(234, 234, 234, 0.2392156863);
+  background-color: rgba(13, 10, 12, 0.5764705882);
   border-radius: 0.9375rem;
   margin: 30px;
   font-size: 1.875rem;
   font-weight: 600;
-  color: #0D0A0C;
 }
 
 .nosotros {
@@ -209,13 +220,19 @@ header .navbar a {
   font-family: "Major Mono Display", monospace;
   color: #A6818F;
 }
-.nosotros article p {
-  background-color: rgba(234, 234, 234, 0.2392156863);
-  border-radius: 0.9375rem;
-  color: #0D0A0C;
-  font-weight: 600;
+.nosotros .sobretynat {
   margin: 30px;
+  background-color: rgba(13, 10, 12, 0.5764705882);
+  border-radius: 0.9375rem;
+}
+.nosotros .sobretynat p {
+  padding: 50px;
+  font-weight: 600;
   font-size: 1.875rem;
+  font-style: italic;
+}
+.nosotros figcaption {
+  font-size: 1.6rem;
 }
 
 .unete {
@@ -225,7 +242,54 @@ header .navbar a {
 .unete h1 {
   font-family: "Major Mono Display", monospace;
   color: #A6818F;
-  font-size: 9.375rem;
+  font-size: 9rem;
+}
+.unete .registrate {
+  margin: 30px;
+  background-color: rgba(13, 10, 12, 0.5764705882);
+  border-radius: 0.9375rem;
+}
+.unete .registrate h2 {
+  margin-top: 50px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.unete .registrate div {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.unete .registrate .astroregalo {
+  background-color: rgba(13, 10, 12, 0.5764705882);
+  border-radius: 0.9375rem;
+  margin: 100px;
+}
+.unete .registrate .astroregalo .tracking-in-expand {
+  animation: tracking-in-expand 1s tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) 1.2s both;
+}
+.unete .registrate .astroregalo h3 {
+  font-size: 3rem;
+  color: #A6818F;
+  font-weight: 600;
+  font-family: "Major Mono Display", monospace;
+}
+.unete .registrate .astroregalo div p {
+  font-size: 2rem;
+}
+.unete .formulario {
+  font-size: 2rem;
+  margin-bottom: 1.875rem;
+}
+.unete .formulario legend {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.unete .formulario legend label input {
+  border-radius: 0.9375rem;
+}
+
+.tracking-in-expand {
+  animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.61, 0.355, 1) both;
 }
 
 footer {
@@ -339,7 +403,7 @@ footer {
 }
 
 /*mediaqueries*/
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .nuestraMision section h1 strong {
     font-size: 6.25rem;
   }
@@ -413,6 +477,24 @@ footer {
   .unete h1 {
     font-size: 4rem;
   }
+  .unete .registrate h2 {
+    font-size: 2rem;
+  }
+  .unete .registrate div {
+    font-size: 1.5rem;
+  }
+  .unete .registrate .astroregalo h3 {
+    font-size: 2rem;
+  }
+  .unete .registrate .astroregalo div p {
+    font-size: 1.5rem;
+  }
+  .unete .registrate .formulario {
+    font-size: 1.5rem;
+  }
+  .unete .registrate .formulario legend {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 512px) {
   .sectionPrincipal {
@@ -465,8 +547,26 @@ footer {
   .nosotros article p {
     font-size: 2rem;
   }
+  .nosotros .sobretynat {
+    margin: 20px;
+  }
+  .nosotros .sobretynat p {
+    padding: 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    font-style: italic;
+  }
+  .nosotros figcaption {
+    font-size: 1.4rem;
+  }
   .unete h1 {
     font-size: 3rem;
+  }
+  .unete .registrate .astroregalo {
+    margin: 50px;
+  }
+  .unete .registrate .astroregalo h3 {
+    font-size: 2rem;
   }
 }
 @media (max-width: 425px) {
@@ -560,8 +660,30 @@ footer {
   .nosotros article p {
     font-size: 1rem;
   }
+  .nosotros .sobretynat {
+    margin: 0;
+  }
+  .nosotros .sobretynat p {
+    padding: 1px;
+    font-size: 1.3rem;
+  }
+  .nosotros figcaption {
+    font-size: 1.3rem;
+  }
   .unete h1 {
     font-size: 2.5rem;
+  }
+  .unete .registrate {
+    margin: 10px;
+  }
+  .unete .registrate h2 {
+    margin-top: 10px;
+  }
+  .unete .registrate .astroregalo {
+    margin: 20px;
+  }
+  .unete .registrate .astroregalo h3 {
+    font-size: 2rem;
   }
 }
 @media (max-width: 320px) {
@@ -574,11 +696,13 @@ footer {
   }
   .sectionMision article h3 strong {
     font-size: 1.3rem;
+    color: #A6818F;
   }
   .sectionMision article p {
     font-size: 1rem;
   }
   .sectionTerapias h3 strong {
+    color: #A6818F;
     font-size: 1.3rem;
   }
   .sectionTerapias p {
@@ -604,6 +728,16 @@ footer {
   }
   .nosotros article p {
     font-size: 1rem;
+  }
+  .nosotros .sobretynat {
+    margin: 0;
+  }
+  .nosotros .sobretynat p {
+    font-size: 1.5rem;
+    padding: 2%;
+  }
+  figcaption {
+    font-size: 1.5rem;
   }
   .unete h1 {
     font-size: 2.3rem;
