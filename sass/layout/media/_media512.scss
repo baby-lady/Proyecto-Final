@@ -45,7 +45,7 @@
         section{
             h1{
                 strong{
-                    font-size: 4.8rem;
+                    font-size: 3rem;
                 }
             }
         }
@@ -55,6 +55,23 @@
             strong{        
                 font-size: 3rem;
             }
+        }
+    }
+    .nosotros{
+        h1{
+            strong{
+                font-size: 3.5rem;
+            }
+        }
+        article{
+            p{
+                font-size: 2rem;
+            }
+        }
+    }
+    .unete{
+        h1{
+            font-size: 3rem;
         }
     }
 }

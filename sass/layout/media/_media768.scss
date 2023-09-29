@@ -66,4 +66,21 @@
     .cardsTerapias{
         @include flex(column, nowrap, center, none, none);
     }
+    .nosotros{
+        h1{
+            strong{
+                font-size: 4.5rem;
+            }
+        }
+        article{
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .unete{
+        h1{
+            font-size: 4rem;
+        }
+    }
 }

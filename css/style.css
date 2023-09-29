@@ -23,7 +23,6 @@ font-family: 'Thasadith', sans-serif; (regular 400 and bold 700)
 body {
   background-color: #0D0A0C;
   background-image: url(../assets/waves.jpg);
-  background-position: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -229,7 +228,7 @@ header .navbar a {
 
 .card-title {
   font-family: "Thasadith", sans-serif;
-  font-size: 1.25rem;
+  font-size: 1rem;
   color: #0D0A0C;
 }
 
@@ -242,8 +241,9 @@ header .navbar a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: start;
   gap: 20px;
+  border: 0.0625rem;
 }
 
 .nuestraMision section {
@@ -264,16 +264,20 @@ header .navbar a {
   color: #0D0A0C;
 }
 
-.contacto {
+.nosotros {
   height: 100%;
   text-align: center;
 }
-.contacto h1 strong {
+.nosotros h1 strong {
   font-size: 9.375rem;
   font-family: "Major Mono Display", monospace;
   color: #A6818F;
 }
-.contacto article p {
+.nosotros article p {
+  background-color: rgba(234, 234, 234, 0.2392156863);
+  border-radius: 0.9375rem;
+  color: #0D0A0C;
+  font-weight: 600;
   margin: 30px;
   font-size: 1.875rem;
 }
@@ -307,7 +311,10 @@ footer {
 /*mediaqueries*/
 @media (max-width: 1024px) {
   .nuestraMision section h1 strong {
-    font-size: 100px;
+    font-size: 6.25rem;
+  }
+  .unete h1 {
+    font-size: 7rem;
   }
 }
 @media (max-width: 768px) {
@@ -367,6 +374,15 @@ footer {
     align-items: none;
     gap: none;
   }
+  .nosotros h1 strong {
+    font-size: 4.5rem;
+  }
+  .nosotros article p {
+    font-size: 1.5rem;
+  }
+  .unete h1 {
+    font-size: 4rem;
+  }
 }
 @media (max-width: 512px) {
   .sectionPrincipal {
@@ -408,9 +424,18 @@ footer {
     font-size: 1.5rem;
   }
   .nuestraMision section h1 strong {
-    font-size: 4.8rem;
+    font-size: 3rem;
   }
   .terapias h1 strong {
+    font-size: 3rem;
+  }
+  .nosotros h1 strong {
+    font-size: 3.5rem;
+  }
+  .nosotros article p {
+    font-size: 2rem;
+  }
+  .unete h1 {
     font-size: 3rem;
   }
 }
@@ -460,10 +485,10 @@ footer {
   .unete h1 {
     font-size: 3.25rem;
   }
-  .contacto h1 {
+  .nosotros h1 strong {
     font-size: 3.25rem;
   }
-  .contacto p {
+  .nosotros article p {
     font-size: 1rem;
   }
 }
@@ -498,6 +523,15 @@ footer {
   }
   .pCard {
     display: none;
+  }
+  .nosotros h1 strong {
+    font-size: 3rem;
+  }
+  .nosotros article p {
+    font-size: 1rem;
+  }
+  .unete h1 {
+    font-size: 2.5rem;
   }
 }
 @media (max-width: 320px) {
@@ -534,6 +568,15 @@ footer {
   }
   .terapias .pCard {
     display: none;
+  }
+  .nosotros h1 strong {
+    font-size: 3.5rem;
+  }
+  .nosotros article p {
+    font-size: 1rem;
+  }
+  .unete h1 {
+    font-size: 2.3rem;
   }
 }
 

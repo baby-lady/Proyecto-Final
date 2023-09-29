@@ -64,12 +64,16 @@
             font-size: 3.25rem;
         }
     }
-    .contacto{
+    .nosotros{
         h1{
-            font-size: 3.25rem;
+            strong{
+                font-size: 3.25rem;
+            }
         }
-        p{
-            font-size: 1rem;
+        article{
+            p{
+                font-size: 1rem;
+            }
         }
     }
 }

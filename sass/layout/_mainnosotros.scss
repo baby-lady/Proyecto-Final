@@ -1,15 +1,19 @@
-.contacto{
+.nosotros{
     height: 100%;
     text-align: center;
     h1{
         strong{
-        font-size: $titlessize;
-        font-family: 'Major Mono Display', monospace;
-        color: $cr;
+            font-size: $titlessize;
+            font-family: 'Major Mono Display', monospace;
+            color: $cr;
         }
     }
     article{
         p{
+            background-color: $bgcolortransparent;
+            border-radius: $bradiusnavfooter;
+            color: #0D0A0C;
+            font-weight: 600;
             margin: 30px;
             font-size: 1.875rem;
         }
