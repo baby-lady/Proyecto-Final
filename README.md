@@ -1,6 +1,9 @@
 # Casa Tryna
 
-Casa Tryna es el sitio web responsive de un espacio holístico de Terapias Alternativas. En el encontrarás información sobre el nacimiento de Casa Tryna y su Fundadora; también las diferentes terapias que ofrecens. Tiene un apartado para registrarse y de esa manera poder reservar, modificar y cancelar turnos. Con ese mismo usuario podrás adquirir tu Carta Natal.
+Casa Tryna es el sitio web responsive de un espacio holístico de Terapias Alternativas.
+En el encontrarás información sobre el nacimiento de Casa Tryna y su Fundadora; también las diferentes terapias que ofrecens.
+Tiene un apartado para registrarse y de esa manera poder reservar, modificar y cancelar turnos.
+Con ese mismo usuario podrás adquirir tu Carta Natal.
 
 ## Contenido
 
